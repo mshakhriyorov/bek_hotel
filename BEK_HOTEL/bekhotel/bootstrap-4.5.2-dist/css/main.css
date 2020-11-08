@@ -1,0 +1,1218 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Dancing+Script&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+
+html, body{
+    overflow-x: hidden;
+}
+
+a:hover{
+    text-decoration: none !important;
+}
+
+p{
+    margin-bottom: 0 !important;
+}
+
+
+
+.contact__navbar {
+    position: fixed;
+    bottom: 50px;
+    right: 75px;
+    display: flex;
+    flex-direction: column;
+    z-index: 22;
+    font-family: candara;
+}
+
+.contact__navbar a {
+    color: #292727;
+    text-transform: uppercase;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 600;
+}
+
+.contact__navbar a:hover,
+.contact__navbar a.active {
+    color: #c19a5b;
+    text-decoration: none;
+}
+
+.contact__navbar span {
+    position: relative;
+}
+
+.contact__navbar span i.fa {
+    font-size: 19px;
+    color: #c19a5b;
+    position: absolute;
+    right: 10px;
+    top: 88px;
+}
+.studio__navbar {
+    position: fixed;
+    bottom: 50px;
+    right: 75px;
+    display: flex;
+    flex-direction: column;
+    z-index: 22;
+    font-family: candara;
+}
+
+.studio__navbar a {
+    color: #292727;
+    text-transform: uppercase;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 600;
+}
+
+.studio__navbar a:hover,
+.studio__navbar a.active {
+    color: #c19a5b;
+    text-decoration: none;
+}
+
+.studio__navbar span {
+    position: relative;
+}
+
+.studio__navbar span i.fa {
+    font-size: 19px;
+    color: #c19a5b;
+    position: absolute;
+    right: 10px;
+    top: 66px;
+}
+
+header {
+    width: 100%;
+    min-height: 100vh;
+}
+
+header .logo img {
+    position: fixed;
+    width: 44px;
+    height: 38px;
+    top: 40px;
+    left: 80px;
+    z-index: 111;
+}
+
+header h1{
+    text-align: center;
+    padding-top: 30vw;
+}
+
+header h1 .head-logo:nth-child(1){
+    font-size: 14px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+header h1 .head-logo{
+    text-transform: uppercase;
+    font-size: 17vw;
+    font-weight: 300;
+    line-height: 14vw;
+    font-family: 'Abel', sans-serif;
+}
+
+header >  p{
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 17vw;
+    text-transform: capitalize;
+    line-height: 40px;
+    color: #C19A5B;
+    font-weight: 300;
+    padding-bottom: 20vw;
+}
+
+/* section image starts */
+
+section div.img-area img{
+    width: 70vw;
+}
+
+section div.img-area{
+    margin-bottom: 20vw !important;
+    transition: .5s ease-in;
+    position: relative;
+    width: 100% !important;
+    height: auto;
+}
+
+section div.img-area:nth-child(1){
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    width: auto;
+    height: 80vw;
+}
+
+section div.img-area:nth-child(2) img{
+ margin-left: 27vw;
+}
+
+section div.img-area:nth-child(3) img:nth-child(2){
+    width: 35vw;
+    height: auto;
+    position: absolute;
+    bottom: -10vw;
+    right: 1vw;
+}
+
+section div.img-area:nth-child(4){
+    width: 600px;
+    margin: auto;
+}
+
+section div.img-area:nth-child(5) img{
+    margin-left: 27vw;  
+    height: 70vw; 
+}
+
+
+
+
+section div.img-area:hover{
+    transform: scale(1.05);
+    z-index: 1;
+    cursor: pointer;
+}
+
+/* section text starts */
+
+section div.img-area > p.fixed{
+    transform: rotate(-90deg);
+    text-align: center;
+    font-family: 'Abel', sans-serif;
+    font-size: 5vw;
+}
+
+section div.img-area:nth-child(1) > p.fixed {
+    position: absolute;
+    bottom: 11vw;
+    left: -2vw ;
+}
+ 
+ section div.img-area:nth-child(2) > p.fixed{
+    position: absolute;
+    bottom: 5vw;
+    left: 17vw;
+}
+ 
+ section div.img-area:nth-child(3) > p.fixed{
+    position: absolute;
+    bottom: 13vw;
+    right: 3vw !important;
+    transform: revert;
+}
+
+
+
+section div.img-area:nth-child(4) > p.fixed{
+    position: absolute;
+    bottom: 12vw;
+    right: 14vw;   
+}
+
+
+section div.img-area:nth-child(5) > p.fixed{
+    position: absolute;
+    bottom: 3vw;
+    left: 19vw;   
+}
+ 
+/* footer starts */
+
+section .section__part .socialNetwork .media {
+    width: 50px;
+    height: 50px;
+    background-color: rebeccapurple;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 22px;
+}
+section .section__part .socialNetwork .media:hover {
+    background-color: purple;
+    transition: .5s ease;
+}
+section .section__part .socialNetwork .media a {
+    cursor: pointer;
+}
+section .section__part .socialNetwork .media span .fa {
+    font-size: 22px;
+    color: white;
+}
+@media (max-width: 900px) {
+    section .section__part .socialNetwork .media {
+        width: 50px;
+        height: 45px;
+    }
+    section .section__part .socialNetwork .media span .fa {
+        font-size: 15px;
+    }
+    section .section__part .socialNetwork {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+@media (max-width: 767px) {
+    section .section__part .socialNetwork .media {
+        width: 30px;
+        height: 30px;
+    }
+    section .section__part .socialNetwork .media span .fa {
+        font-size: 12px;
+    }
+}
+footer{
+    margin-top: 10vw;
+}
+
+footer > p{
+    text-align: center;
+    padding-bottom: 203px;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-family: 'Big Shoulders Stencil Text', cursive;
+}
+
+footer > p > span > a{
+    font-weight: 600;
+    font-family: 'Abel', sans-serif ;
+    font-size: 157px;
+    line-height: 130px;
+    border-bottom: 2px solid #C19A5B;
+    color: #C19A5B;
+    transition: 900ms ease-in;
+}
+
+footer > p > span a:hover{
+    color: #000;
+    border: none !important;
+}
+
+footer .foot-text{
+    padding-bottom: 100px;
+}
+
+footer .foot-text li{
+    text-align: center;
+    text-transform: uppercase;
+    color: #C19A5B;
+    font-size: 1.5vw;
+}
+
+footer .foot-text li a {
+    text-align: center;
+    text-transform: uppercase;
+    color: #C19A5B;
+    font-size: 1.5vw;
+}
+
+footer > .foot-text li  a:hover{
+    border-bottom: 1px solid #C19A5B;
+}
+
+
+footer .foot-text li i{
+    background: url('https://aebeleinteriors.com/wp-content/themes/aebele/public/svg/icon-world.svg');   
+    display: inline-block;
+    transform: translateX(-0.208vw);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 3vw;
+    height: 2.5vw;
+}
+
+/* contact starts */
+
+.s-header.type-text {
+    padding-bottom: 4.861vw;
+}
+
+.s-header {
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    padding: 22vw 0;
+}
+
+.header-heading {
+    width: 100%;
+}
+
+.type-text.layout-2 .s-grid, .type-text.layout-3 .s-grid {
+    text-align: left;
+}
+
+.s-grid {
+    display: grid;
+    margin: 0 6.25vw;
+    align-items: start;
+    grid-row-gap: 0;
+    grid-column-gap: 1.389vw;
+}
+
+.type-text.layout-2 .s-grid>*, .type-text.layout-3 .s-grid>* {
+    grid-column: 2/13;
+}
+
+.s-header .f-title-r, .s-header .s-contact h3, .s-contact .s-header h3 {
+    margin-bottom: 4.167vw;
+}
+
+.line {
+    overflow: hidden;
+}
+
+.line div {
+    will-change: transform;
+}
+
+.line > div {
+    text-align: left;
+    transform: translate(0px, 0px);
+    opacity: 1;
+}
+
+.line > div > div{
+    position: relative;
+    display: inline-block;
+}
+
+.f-title-r, .s-contact h3 {
+    font-size: 0.833vw;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 0.833vw;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+}
+
+.f-heading-m {
+    font-weight: 300;
+    font-size: 9.028vw;
+    font-style: normal;
+    text-transform: uppercase;
+}
+
+.f-heading-m>div div {
+    position: relative;
+    display: inline-block;
+}
+
+.type-text.layout-2 .f-heading-m>div:nth-child(2) {
+    margin-left: 14.583vw;
+    line-height: 6vw;
+}
+
+.type-text.layout-2 .f-heading-m>div:nth-child(3) {
+    margin-left: 29.583vw;
+    color: #C19A5B;
+    font-family: 'Dancing Script', cursive;
+    
+}
+
+.s-contact .container .row .col-lg-3:nth-child(1) li{
+    margin-top: 3.8vw !important;
+}
+.s-contact .container .row .col-lg-3:nth-child(2) li{
+    margin-top: 2vw !important;
+}
+
+.f-link, .f-anchors {
+    color: #C19A5B;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 0.833vw;
+    line-height: 0.833vw;
+    text-transform: uppercase;
+}
+
+
+.f-link:hover, .f-anchors:hover{
+    border-bottom: 1px solid #C19A5B;
+}
+
+
+
+/* ---  media starts --- */
+
+
+@media screen and (min-width:1200px){
+    header h1{
+        text-align: center;
+        padding-top: 5vw;
+    }
+
+
+    header h1 .head-logo:nth-child(1){
+        font-size: 14px;
+        font-weight: 300;
+        text-transform: uppercase;
+    }
+    
+    header h1 .head-logo{
+        text-transform: uppercase;
+        font-size: 13vw;
+        font-weight: 300;
+        line-height: 11vw;
+        font-family: 'Abel', sans-serif;
+    }
+
+
+    section div.img-area > p.fixed{
+        transform: rotate(-90deg);
+        text-align: center;
+        font-family: 'Abel', sans-serif;
+        font-size: 2vw;
+    }
+    
+    section div.img-area:nth-child(1) > p.fixed {
+        position: absolute;
+        bottom: 4vw;
+        left: 8vw ;
+    }
+     
+     section div.img-area:nth-child(2) > p.fixed{
+        position: absolute;
+        bottom: 1.2vw;
+        left: 23vw;
+    }
+     
+     section div.img-area:nth-child(3) > p.fixed{
+        position: absolute;
+        bottom: 13vw;
+        right: 3vw;
+        transform: revert;
+    }
+    
+    section div.img-area:nth-child(3) img:nth-child(2) {
+        width: 35vw;
+        height: auto;
+        position: absolute;
+        bottom: -10vw;
+        right: 3vw;
+    }
+    
+    
+    section div.img-area:nth-child(4) > p.fixed{
+        position: absolute;
+        bottom: 4vw;
+        right: 22vw;   
+    }
+    
+    
+    section div.img-area:nth-child(5) > p.fixed{
+        position: absolute;
+        bottom: 0.6vw;
+        left: 24vw;   
+    }
+
+
+    footer .foot-text li i{ 
+        background: url('https://aebeleinteriors.com/wp-content/themes/aebele/public/svg/icon-world.svg') center center no-repeat;   
+        width: 1vw;
+        height: 1vw;
+    }
+    
+    .s-contact .container .row .col-lg-3:nth-child(1) li {
+        margin-top: 4vw !important;
+    }
+    
+    .s-contact .container .row .col-lg-3 li a:hover{
+        color: #C19A5B;
+    }
+
+
+    .s-contact p a{
+        color: grey;
+    }
+}
+
+@media screen and (max-width:1199px){
+    header h1{
+        text-align: center;
+        padding-top: 5vw;
+    }
+
+
+    header h1 .head-logo:nth-child(1){
+        font-size: 14px;
+        font-weight: 300;
+        text-transform: uppercase;
+    }
+    
+    header h1 .head-logo{
+        text-transform: uppercase;
+        font-size: 13vw;
+        font-weight: 300;
+        line-height: 11vw;
+        font-family: 'Abel', sans-serif;
+    }
+
+
+    section div.img-area > p.fixed{
+        transform: rotate(-90deg);
+        text-align: center;
+        font-family: 'Abel', sans-serif;
+        font-size: 2vw;
+    }
+    
+    section div.img-area:nth-child(1) > p.fixed {
+        position: absolute;
+        bottom: 4vw;
+        left: 8vw ;
+    }
+     
+     section div.img-area:nth-child(2) > p.fixed{
+        position: absolute;
+        bottom: 1.2vw;
+        left: 23vw;
+    }
+     
+     section div.img-area:nth-child(3) > p.fixed{
+        position: absolute;
+        bottom: 13vw;
+        right: 3vw;
+        transform: revert;
+    }
+    
+    section div.img-area:nth-child(3) img:nth-child(2) {
+        width: 35vw;
+        height: auto;
+        position: absolute;
+        bottom: -10vw;
+        right: 3vw;
+    }
+    
+    
+    section div.img-area:nth-child(4) > p.fixed{
+        position: absolute;
+        bottom: 4vw;
+        right: 23vw;   
+    }
+    
+    
+    section div.img-area:nth-child(5) > p.fixed{
+        position: absolute;
+        bottom: 0.6vw;
+        left: 24vw;   
+    }
+
+    footer .foot-text li i{ 
+        background: url('https://aebeleinteriors.com/wp-content/themes/aebele/public/svg/icon-world.svg') center center no-repeat;   
+        width: 2vw;
+        height: 1.2vw;
+    }
+
+    .s-contact .container .row .col-lg-3 li a:hover{
+        color: #C19A5B;
+    }
+
+
+    .s-contact .container .row .col-lg-3:nth-child(1) li {
+        margin-top: 4.4vw !important;
+    }
+    
+
+
+    .s-contact p a{
+        color: grey;
+    }
+}
+
+@media screen and (max-width:1024px){
+
+    header h1{
+        text-align: center;
+        padding-top: 5vw;
+    }
+
+    header h1 .head-logo:nth-child(1){
+        font-size: 14px;
+        font-weight: 300;
+        text-transform: uppercase;
+    }
+    
+    header h1 .head-logo{
+        text-transform: uppercase;
+        font-size: 13vw;
+        font-weight: 300;
+        line-height: 11vw;
+        font-family: 'Abel', sans-serif;
+    }
+
+
+    section div.img-area > p.fixed{
+        transform: rotate(-90deg);
+        text-align: center;
+        font-family: 'Abel', sans-serif;
+        font-size: 2vw;
+    }
+    
+    section div.img-area:nth-child(1) > p.fixed {
+        position: absolute;
+        bottom: 4vw;
+        left: 8vw ;
+    }
+     
+     section div.img-area:nth-child(2) > p.fixed{
+        position: absolute;
+        bottom: 1.2vw;
+        left: 23vw;
+    }
+     
+     section div.img-area:nth-child(3) > p.fixed{
+        position: absolute;
+        bottom: 13vw;
+        right: 3vw;
+        transform: revert;
+    }
+    
+    section div.img-area:nth-child(3) img:nth-child(2) {
+        width: 35vw;
+        height: auto;
+        position: absolute;
+        bottom: -10vw;
+        right: 3vw;
+    }
+    
+    
+    section div.img-area:nth-child(4) > p.fixed{
+        position: absolute;
+        bottom: 4vw;
+        right: 23vw;   
+    }
+    
+    
+    section div.img-area:nth-child(5) > p.fixed{
+        position: absolute;
+        bottom: 0.6vw;
+        left: 24vw;   
+    }
+     
+
+
+    footer > p{
+        padding-bottom: 20vw;
+    }
+
+    footer > p > span a{
+        font-size: 13vw;
+        line-height: 23vw;
+    }
+
+    footer .foot-text li{
+        font-size: 2vw;
+    }
+
+    footer .foot-text li a{
+        font-size: 2vw;
+    }
+
+    footer .foot-text li i{ 
+        background: url('https://aebeleinteriors.com/wp-content/themes/aebele/public/svg/icon-world.svg');   
+        display: inline-block;
+        transform: translateX(-0.208vw);
+        background-size: contain;
+        background-repeat: no-repeat;  
+        width: 2vw;
+        height: 1.5vw;
+    }
+
+
+    /* == =contact starts == */
+
+header{
+    min-height: auto;
+}
+
+ .line > div {
+    font-size: 1vw;
+ }
+
+.s-contact h3 {
+    font-size: 1vw;
+}
+
+.s-contact p a{
+    color: grey;
+}
+
+.f-anchors, .f-link{
+    font-size: 1vw;
+    text-align: center;
+}
+
+.f-anchors:hover, .f-link:hover{
+    color: #C19A5B;
+}
+
+.s-contact .container .row .col-lg-3 li{
+    margin: 10vw auto;
+}
+
+.s-contact .container .row .col-lg-3 li a:hover{
+    color: #C19A5B;
+}
+
+
+.s-contact .container .row .col-lg-3:nth-child(1) li {
+    margin-top: 4.5vw !important;
+}
+
+}
+
+@media screen and (max-width:992px){
+    section div.img-area > p.fixed{
+        transform: rotate(-90deg);
+        text-align: center;
+        font-family: 'Abel', sans-serif;
+        font-size: 3vw;
+    }
+    
+    section div.img-area:nth-child(1) > p.fixed {
+        position: absolute;
+        bottom: 6vw;
+        left: 5vw ;
+    }
+     
+     section div.img-area:nth-child(2) > p.fixed{
+        position: absolute;
+        bottom: 2vw;
+        left: 21vw;
+    }
+     
+     section div.img-area:nth-child(3) > p.fixed{
+        position: absolute;
+        bottom: 13vw;
+        right: 1vw;
+        transform: revert;
+    }
+    
+    
+    
+    section div.img-area:nth-child(4) > p.fixed{
+        position: absolute;
+        bottom: 6vw;
+        right: 20vw;   
+    }
+    
+    
+    section div.img-area:nth-child(5) > p.fixed{
+        position: absolute;
+        bottom: 1vw;
+        left: 22vw;   
+    }
+     
+
+
+    footer > p{
+        padding-bottom: 20vw;
+    }
+
+    footer > p > span a{
+        font-size: 13vw;
+        line-height: 23vw;
+    }
+
+    footer .foot-text li{
+        font-size: 2vw;
+    }
+
+    footer .foot-text li a{
+        font-size: 2vw;
+    }
+
+    footer .foot-text li i{   
+        width: 2vw;
+        height: 1.5vw;
+    }
+
+
+    /* == =contact starts == */
+
+header{
+    min-height: auto;
+}
+
+ .line > div {
+    font-size: 1vw;
+ }
+
+.s-contact h3 {
+    font-size: 1vw;
+}
+
+.s-contact p a{
+    color: grey;
+}
+
+.f-anchors, .f-link{
+    font-size: 1vw;
+    text-align: center;
+}
+
+.f-anchors:hover, .f-link:hover{
+    color: #C19A5B;
+}
+
+.s-contact .container .row .col-lg-3 li{
+    margin: 10vw auto;
+}
+
+.s-contact .container .row .col-lg-3:nth-child(1) li {
+    margin-top: 5vw !important;
+}
+
+}
+
+@media (max-width: 1000px) {
+    .studio__navbar {
+        position: fixed;
+        bottom: 15px;
+        right: 5px;
+        z-index: 22;
+        font-family: candara;
+    }
+    .studio__navbar a {
+        color: black;
+        text-transform: uppercase;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 22px;
+    }
+    .contact__navbar {
+        position: fixed;
+        bottom: 15px;
+        right: 5px;
+        z-index: 22;
+        font-family: candara;   
+    }
+    .contact__navbar a {
+        color: black;
+        text-transform: uppercase;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 22px;
+    }
+}
+@media screen and (max-width:771px){
+    section div.img-area > p.fixed{
+        transform: rotate(-90deg);
+        text-align: center;
+        font-family: 'Abel', sans-serif;
+        font-size: 3vw;
+    }
+    
+    section div.img-area:nth-child(1) > p.fixed {
+        position: absolute;
+        bottom: 6vw;
+        left: 5vw ;
+    }
+     
+     section div.img-area:nth-child(2) > p.fixed{
+        position: absolute;
+        bottom: 2vw;
+        left: 21vw;
+    }
+     
+     section div.img-area:nth-child(3) > p.fixed{
+        position: absolute;
+        bottom: 13vw;
+        right: 1vw;
+        transform: revert;
+    }
+    
+    
+    
+    section div.img-area:nth-child(4) > p.fixed{
+        position: absolute;
+        bottom: 6vw;
+        right: 20vw;   
+    }
+    
+    
+    section div.img-area:nth-child(5) > p.fixed{
+        position: absolute;
+        bottom: 1vw;
+        left: 22vw;   
+    }
+     
+
+
+    footer > p{
+        padding-bottom: 20vw;
+    }
+
+    footer > p > span a{
+        font-size: 13vw;
+        line-height: 23vw;
+    }
+
+    footer .foot-text li{
+        font-size: 2vw;
+    }
+
+    footer .foot-text li a{
+        font-size: 2vw;
+    }
+
+    footer .foot-text li i{   
+        width: 2vw;
+        height: 1.5vw;
+    }
+
+
+
+    /* == =contact starts == */
+
+header{
+        min-height: auto;
+    }
+
+.s-header.type-text {
+         padding-bottom: 22.222vw; 
+ }
+
+
+ .line{
+     overflow: initial;
+ }
+
+ .line > div {
+    text-align: center;
+    font-size: 3vw;
+ }
+
+ .type-text.layout-2 .s-grid, .type-text.layout-3 .s-grid {
+    text-align: center;
+}
+
+.type-text.layout-2 .f-heading-m>div{
+    margin: 0 !important;
+}
+
+
+/* contact starts */
+
+
+.s-contact h3 {
+    font-size: 4vw;
+    text-align: center;
+    padding-bottom: 8vw;
+}
+
+.s-contact p{
+    text-align: center;
+    margin-bottom: 10vw !important;
+}
+
+.s-contact p a{
+    color: grey;
+}
+
+.f-anchors, .f-link{
+    font-size: 2vw;
+    text-align: center;
+}
+
+.f-anchors:hover, .f-link:hover{
+    color: #C19A5B;
+}
+
+.s-contact .container .row .col-lg-3 li{
+    text-align: center;
+    margin: 10vw auto;
+}
+
+.s-contact .container .row .col-lg-3:nth-child(1) li {
+    margin-top: 13.5vw !important;
+}
+
+}
+
+@media screen and (max-width:575px){
+    footer > p{
+        padding-bottom: 20vw;
+    }
+
+    footer > p > span a{
+        font-size: 20vw;
+        line-height: 23vw;
+    }
+
+    footer .foot-text li{
+        font-size: 3vw;
+    }
+
+    footer .foot-text li a{
+        font-size: 3vw;
+    }
+
+
+    /* == =contact starts == */
+
+    header{
+        min-height: auto;
+    }
+
+    .s-header.type-text {
+         padding-bottom: 22.222vw; 
+ }
+
+
+ .line{
+     overflow: initial;
+ }
+
+ .line > div {
+    text-align: center;
+    font-size: 3vw;
+ }
+
+ .type-text.layout-2 .s-grid, .type-text.layout-3 .s-grid {
+    text-align: center;
+}
+
+.type-text.layout-2 .f-heading-m>div{
+    margin: 0 !important;
+}
+
+
+/* section starts */
+
+
+.s-contact h3 {
+    font-size: 4vw;
+    text-align: center;
+    padding-bottom: 8vw;
+}
+
+.s-contact p{
+    text-align: center;
+    margin-bottom: 10vw !important;
+}
+
+.s-contact p a{
+    color: grey;
+}
+
+.f-anchors, .f-link{
+    font-size: 4vw;
+    text-align: center;
+}
+
+.f-anchors:hover, .f-link:hover{
+    color: #C19A5B;
+}
+
+.s-contact .container .row .col-lg-3 li{
+    text-align: center;
+    margin: 10vw auto;
+}
+
+}
+
+@media screen and (max-width:330px){
+    footer > p{
+        padding-bottom: 20vw;
+    }
+
+    footer > p > span a{
+        font-size: 20vw;
+        line-height: 23vw;
+    }
+
+    footer .foot-text li{
+        font-size: 3vw;
+    }
+
+    footer .foot-text li a{
+        font-size: 3vw;
+    }
+
+    /* == =contact starts == */
+
+    header{
+        min-height: auto;
+    }
+
+    .s-header.type-text {
+         padding-bottom: 22.222vw; 
+ }
+
+
+ .line{
+     overflow: initial;
+ }
+
+ .line > div {
+    text-align: center;
+    font-size: 3vw;
+ }
+
+ .type-text.layout-2 .s-grid, .type-text.layout-3 .s-grid {
+    text-align: center;
+}
+
+.type-text.layout-2 .f-heading-m>div{
+    margin: 0 !important;
+}
+
+
+/* section starts */
+
+
+.s-contact h3 {
+    font-size: 4vw;
+    text-align: center;
+    padding-bottom: 8vw;
+}
+
+.s-contact p{
+    text-align: center;
+    margin-bottom: 10vw !important;
+}
+
+.s-contact p a{
+    color: grey;
+}
+
+.f-anchors, .f-link{
+    font-size: 4vw;
+    text-align: center;
+}
+
+.f-anchors:hover, .f-link:hover{
+    color: #C19A5B;
+}
+
+.s-contact .container .row .col-lg-3 li{
+    text-align: center;
+    margin: 10vw auto;
+}
+
+}

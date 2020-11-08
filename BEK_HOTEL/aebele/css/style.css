@@ -1,0 +1,327 @@
+::-webkit-scrollbar-track {
+    background-color: #ecedee
+}
+
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 0px;
+    border-radius: 0px;
+    background-color: #e5ecec;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #f1f6f7;
+}
+
+::-webkit-scrollbar {
+    width: 4px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+/* fixed elements start */
+header .logo img {
+    position: fixed;
+    width: 44px;
+    height: 38px;
+    top: 40px;
+    left: 80px;
+    z-index: 111;
+}
+
+.studio__navbar {
+    position: fixed;
+    bottom: 50px;
+    right: 75px;
+    display: flex;
+    flex-direction: column;
+    z-index: 22;
+    font-family: candara;
+}
+
+.studio__navbar a {
+    color: #292727;
+    text-transform: uppercase;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 600;
+}
+
+.studio__navbar a:hover,
+.studio__navbar a.active {
+    color: #c19a5b;
+    text-decoration: none;
+}
+
+.studio__navbar span {
+    position: relative;
+}
+
+.studio__navbar span i.fa {
+    font-size: 19px;
+    color: #c19a5b;
+    position: absolute;
+    right: 10px;
+    top: 23px;
+}
+
+/* fixed elements stop! */
+/* header start */
+header {
+    max-width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+header .header__part-top .aebele {
+    font-size: 22px;
+    text-align: center;
+    padding-top: 200px;
+    margin-bottom: 40px;
+    opacity: 0.7;
+}
+
+header .header__part-top .header__top-texts {
+    font-size: 120px;
+    text-align: center;
+    line-height: 100px;
+    font-weight: 400;
+    opacity: 0.8;
+}
+
+header .header__part-top .about {
+    font-size: 80px;
+    color: #c19a5b;
+    font-family: 'Meie Script', cursive;
+    text-align: center;
+    opacity: 0.8;
+    margin-top: -30px;
+    margin-left: 50px;
+}
+
+header .header__part-top .full__texts-header {
+    max-width: 500px;
+    font-size: 18px;
+    line-height: 24px;
+    margin: 20px auto 80px auto;
+    text-align: center;
+    color: rgb(29, 28, 28);
+}
+
+header .header__part-top .whatWeDo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-bottom: 50px;
+}
+
+header .header__part-top .whatWeDo .line__weDo {
+    width: 80px;
+    height: 1px;
+    background-color: #c19a5b;
+    position: absolute;
+    left: 52%;
+    right: 48%;
+    margin: auto;
+    margin-left: -42px;
+}
+
+header .header__part-top .whatWeDo .ourWork {   
+    font-size: 13px;
+    text-transform: uppercase;
+    color: #c19a5b;
+    font-weight: 600;
+    opacity: 0.9;
+    text-align: center;
+    margin-left: 340px;
+}
+
+header .header__part-bottom {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 800px;
+    margin: 0 auto 110px auto;
+}
+
+header .header__part-bottom .designer-image img:nth-child(1) {
+    width: 400px;
+    height: auto;
+    margin-left: 20px;
+    margin-top: -30px;
+}
+header .header__part-bottom .designer-image img:nth-child(2) {
+    width: 400px;
+    height: auto;
+    margin-left: 20px;
+    margin-top: 40px;
+} 
+header .header__part-bottom .text-OurWorks {
+    max-width: 300px;
+}
+
+header .header__part-bottom .text-OurWorks p {
+    line-height: 22px;
+    color: black;
+    font-size: 15px;
+    opacity: 0.7;
+    border-bottom: 1px solid gray;
+}
+
+header .header__part-bottom .text-OurWorks .first-part,
+header .header__part-bottom .text-OurWorks .second-part,
+header .header__part-bottom .text-OurWorks .third-part {
+    margin-bottom: 17px;
+}
+
+header .header__part-bottom .text-OurWorks .second-part .eric__custer {
+    color: #c19a5b;
+    font-size: 15px;
+    text-transform: capitalize;
+}
+
+header .header__part-bottom .text-OurWorks .second-part .eric__custer:hover {
+    border-bottom: 1px solid #c19a5b;
+}
+
+/* header part finsihed */
+/* section part start */
+section {
+    max-width: 100%;
+    height: auto;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    margin: 0 auto 220px auto;
+    flex-direction: column;
+}
+
+section div {
+    margin: 0px auto 0px auto;
+}
+
+section div img {
+    max-width: 100%;
+    width: 400px;
+    border: 4px solid silver;
+    height: auto;
+}
+section div:nth-child(2) img:nth-child(2) {
+    width: 400px;
+    height: auto;
+}
+section div:nth-child(1) img,
+section div:nth-child(2) img,
+section div:nth-child(3) img {
+    margin: 0 25px;
+}
+
+section div:nth-child(2) img,
+section div:nth-child(3) img {
+    margin-top: 50px;
+}
+
+/* section part stop */
+/* footer part start */
+footer {
+    max-width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+footer .aebele__links {
+    margin: 0 auto 0px auto;
+}
+
+footer .aebele__links p:nth-child(1) {
+    font-size: 14px;
+    color: rgb(70, 69, 69);
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: -32px;
+    font-family: 'Big Shoulders Stencil Text', cursive;
+    font-weight: 400;
+}
+
+footer .aebele__links p:nth-child(2) {
+    text-align: center;
+    font-size: 170px;
+    text-transform: uppercase;
+}
+
+footer .aebele__links p:nth-child(2) a {
+    color: #c19a5b;
+    font-size: 120px;
+    text-decoration: none;
+    border-bottom: 1px solid #c19a5b;
+    transition: .5s ease;
+}
+
+footer .aebele__links p:nth-child(2) a:hover {
+    text-decoration: none;
+    color: black;
+    border-bottom: none ;
+}
+
+/* footer .aebele__links p:nth-child(2)::after {
+    content: '';
+    display: block;
+    width: 380px;
+    height: 2px;
+    background-color: #c19a5b;
+    margin: -22px auto 0 auto;
+}
+
+footer .aebele__links p:nth-child(2):hover::after {
+    display: block;
+    content: 'Project';
+    font-size: 80px;
+    color: #c19a5b;
+    text-align: center;
+    font-family: 'Meie Script', cursive;
+    /* letter-spacing: -30px; */
+
+
+footer .footer__part {
+    margin-top: 160px;
+}
+
+footer .footer__part li {
+    color: #c19a5b;
+    text-align: center;
+    font-size: 18px;
+}
+
+footer .footer__part li:nth-child(1) {
+    margin-top: 120px;
+}
+
+footer .footer__navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+    padding-bottom: 120px;
+}
+
+footer .aebele__links .footer__part img {
+    margin-top: -4px;
+}
+
+footer .footer__navbar li a {
+    color: #c19a5b;
+    transition: .5s ease;
+}
+
+footer .footer__navbar li a:hover {
+    transition: .5s ease;
+    border-bottom: 1px solid #8b7147;
+}

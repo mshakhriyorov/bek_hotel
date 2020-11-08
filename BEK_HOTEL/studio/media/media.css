@@ -1,0 +1,414 @@
+@media (max-width: 1000px) {
+    header .logo img {
+        width: 44px;
+        height: 38px;
+        position: fixed;
+        top: 40px;
+        left: 80px;
+        z-index: 111;
+    }
+    footer .studio__navbar {
+        position: fixed;
+        bottom: 15px;
+        right: 15px;
+        z-index: 22;
+        font-family: candara;
+    }
+
+    footer .studio__navbar a {
+        color: black;
+        text-transform: uppercase;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 22px;
+    }
+
+    /* header start */
+    header .header__start-texts p:nth-child(2),
+    header .header__start-texts p:nth-child(3),
+    header .header__start-texts p:nth-child(4) {
+        font-size: 70px;
+        line-height: 80px;
+    }
+
+    header .header__start-texts p:nth-child(3) {
+        margin-top: -6px;
+    }
+
+    header .header__start-texts p:nth-child(5) {
+        margin-top: -10px;
+        margin-left: 0px;
+    }
+
+    header .header__start-texts p:nth-child(6) {
+        margin: 20px auto 100px auto;
+        font-size: 18px;
+        max-width: 400px;
+    }
+
+    /* section start */
+    section .start__section-part {
+        display: flex;
+        margin-top: 100px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    section .start__section-part div:nth-child(1) img {
+        width: 400px;
+        height: 600px;
+    }
+
+    section .start__section-part div:nth-child(2) img {
+        width: 400px;
+        height: 600px;
+        margin-left: 20px;
+    }
+
+    section .turnkey__equiped p:nth-child(1) {
+        margin: 100px 0px 0px 0px;
+        text-align: center;
+    }
+
+    section .turnkey__equiped p:nth-child(2) {
+        font-size: 80px;
+        margin: 0 0px -20px 0px;
+        text-align: center;
+    }
+
+    section .turnkey__equiped p:nth-child(3) {
+        margin-left: 0px;
+        font-size: 80px;
+        text-align: center;
+    }
+
+    section .turnkey__equiped p:nth-child(4) {
+        font-size: 80px;
+        text-align: center;
+        margin: -24px 0px 0 0px;
+    }
+
+    section .turnkey__equiped p:nth-child(5) {
+        font-size: 80px;
+        text-align: center;
+        margin: 0px 0px 50px 0px;
+    }
+
+    section .turnkey__equiped p:nth-child(6) {
+        max-width: 270px;
+        text-align: justify;
+        font-size: 20px;
+        margin: 0px auto 0 auto;
+    }
+
+    section .building__success {
+        margin-left: 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    section .building__success p:nth-child(1),
+    section .building__success p:nth-child(2),
+    section .building__success p:nth-child(3) {
+        line-height: 70px;
+    }
+
+    section .building__success p.collaborations {
+        margin-top: 11px;
+        margin-bottom: 40px;
+    }
+
+    section .building__success .aebele-interirs__navbar p {
+        font-size: 20px;
+        max-width: 250px;
+        line-height: 26px;
+    }
+
+    /* main start */
+    main .bedroom__part {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding-top: 100px;
+    }
+
+    main .bedroom__part img {
+        margin-left: 0px;
+        width: 380px;
+        height: 350px;
+    }
+
+    main .bedroom__part p.bedroom__always-text {
+        margin: 60px 0px 2px 0px;
+        font-weight: 400;
+        line-height: 22px;
+    }
+
+    main .bedroom__part p.looking-text {
+        margin-left: 0px;
+        line-height: 90px;
+    }
+
+    main .bedroom__part p.fortalent-text {
+        margin-left: 0px;
+        line-height: 22px;
+        font-weight: 400;
+        margin-top: 10px;
+    }
+
+    main .bedroom__part .join__team-content {
+        display: flex;
+        margin-bottom: 30px;
+        margin-left: 0px;
+    }
+
+    main .bedroom__part .bottom__join-team {
+        margin-left: 0px;
+        line-height: 22px;
+        font-size: 18px;
+    }
+
+    main .send__message p a i.fa {
+        position: absolute;
+        font-size: 20px;
+        left: -22px;
+        top: -1px;
+    }
+
+    /* footer */
+    footer .footer__part li {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 850px) {
+
+    /* section start*/
+    section .start__section-part {
+        display: flex;
+        flex-direction: column;
+    }
+
+    section .start__section-part div:nth-child(2) img {
+        margin-top: 50px;
+        margin-left: 0px;
+    }
+
+    section .building__success .building,
+    section .building__success .successful,
+    section .building__success .collaborations {
+        font-size: 40px;
+        line-height: 4px;
+    }
+
+    section .building__success .successful {
+        margin-top: -40px;
+    }
+
+    section .building__success .collaborations {
+        margin-top: -5px !important;
+    }
+
+    section .turnkey__equiped p:nth-child(2) {
+        margin-bottom: 22px;
+    }
+
+    section .turnkey__equiped p:nth-child(5) {
+        margin-top: -22px;
+    }
+
+    /* footer part start */
+    footer .footer__part {
+        max-width: 350px;
+        margin: 0 auto;
+    }
+
+    footer .footer__part li {
+        font-size: 14px;
+        line-height: 28px;
+
+    }
+
+    footer .footer__navbar {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+        padding-bottom: 120px;
+    }
+
+    footer .footer__navbar li {
+        line-height: 28px;
+    }
+
+    footer .footer__navbar li a {
+        border-bottom: 1px dotted #e9782c;
+    }
+
+    footer .aebele__links p:nth-child(2) a {
+        text-align: center;
+        font-size: 70px;
+    }
+
+    footer .aebele__links p:nth-child(2)::after {
+        content: '';
+        display: block;
+        width: 300px;
+        height: 2px;
+        background-color: #c19a5b;
+        margin: 12px auto 0 auto;
+    }
+
+    section .building__success .contactUs__link i.fa {
+        font-size: 22px;
+        color: #c19a5b;
+        position: absolute;
+        left: -22px;
+        top: 3px;
+    }
+
+    main .bedroom__part p.looking-text {
+        margin-top: 5px;
+    }
+
+    main .bedroom__part p.fortalent-text {
+        margin-top: -5px;
+    }
+}
+
+@media (max-width: 700px) {
+
+    header .header__start-texts p:nth-child(2),
+    header .header__start-texts p:nth-child(3),
+    header .header__start-texts p:nth-child(4) {
+        font-size: 50px;
+        color: white;
+        font-weight: 500;
+        font-family: 'Martel', serif;
+        text-align: center;
+        text-transform: uppercase;
+        line-height: 65px;
+    }
+
+    header .logo img {
+        position: fixed;
+        width: 44px;
+        height: 38px;
+        top: 40px;
+        left: 40px;
+        z-index: 111;
+    }
+}
+
+@media (max-width: 552px) {
+    section .turnkey__equiped p:nth-child(2) {
+        font-size: 50px;
+        margin: -10px 0px -20px 0px;
+    }
+
+    section .turnkey__equiped p:nth-child(3) {
+        margin-left: 0px;
+        font-size: 50px;
+        margin-top: -20px;
+        text-align: center;
+    }
+
+    section .turnkey__equiped p:nth-child(4) {
+        font-size: 50px;
+        text-align: center;
+        margin: -30px 0px 0 0px;
+    }
+
+    section .turnkey__equiped p:nth-child(5) {
+        font-size: 50px;
+        margin: -30px 0px 50px 0px;
+    }
+
+
+    main .bedroom__part p.bedroom__always-text {
+        line-height: 38px;
+        font-size: 40px;
+    }
+
+    main .bedroom__part p.looking-text {
+        margin-left: 0px;
+        font-size: 40px;
+        margin-top: 4px;
+        line-height: 35px;
+    }
+
+    main .bedroom__part p.fortalent-text {
+        margin-left: 0px;
+        font-size: 40px;
+        line-height: 38px;
+        font-weight: 400;
+        margin-top: -10px;
+    }
+
+    footer .aebele__links p:nth-child(2) a {
+        font-size: 40px;
+    }
+
+    footer .aebele__links p:nth-child(2)::after {
+        content: '';
+        display: block;
+        width: 150px;
+        height: 2px;
+    }
+}
+
+@media (max-width: 400px) {
+    header .logo {
+        position: fixed;
+        top: 6px !important;
+        left: 30px !important;
+        width: 40px;
+        height: auto;
+        z-index: 100;
+    }
+
+    .studio__navbar {
+        position: fixed;
+        bottom: 10px;
+        right: 15px;
+        display: flex;
+        flex-direction: column;
+        z-index: 22;
+        font-family: candara;
+    }
+
+    header .header__start-texts p:nth-child(6) {
+        font-size: 16px;
+        width: 300px;
+    }
+
+    section .start__section-part div:nth-child(1) img {
+        width: 300px;
+        height: 300px;
+    }
+
+    section .start__section-part div:nth-child(2) img {
+        width: 300px;
+        height: 300px;
+    }
+
+    main .bedroom__part img {
+        width: 300px;
+        height: 300px;
+    }
+
+    section .building__success .building,
+    section .building__success .successful,
+    section .building__success .collaborations {
+        font-size: 30px;
+        line-height: 0px;
+    }
+
+    section .building__success .successful {
+        margin-top: -22px;
+    }
+}

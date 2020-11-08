@@ -1,0 +1,529 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Text:wght@400;600;800;900&display=swap');
+
+
+::-webkit-scrollbar-track {
+    background-color: #ecedee
+}
+
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 0px;
+    border-radius: 0px;
+    background-color: #e5ecec;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #f1f6f7;
+}
+
+::-webkit-scrollbar {
+    width: 4px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ffffff;
+    scroll-behavior: smooth;
+    color: #1f1f1f;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    background-color: rgb(238, 228, 233);
+}
+
+/** header start */
+header {
+    max-width: 100%;
+    height: auto;
+    overflow-x: hidden;
+}
+
+header .header__top {
+    padding-top: 0;
+}
+
+header .start__project {
+    margin: 0px auto 8vw auto;
+    padding-top: 30px;
+}
+
+header img.logo__header {
+    width: 44px;
+    height: 38px;
+    position: fixed;
+    top: 40px;
+    left: 80px;
+    z-index: 111
+}
+
+header .start__project li {
+    color: #c19a5b;
+    font-size: 1.111vw;
+    font-weight: 300;
+    font-style: normal;
+    text-align: center;
+}
+
+header .start__project li:nth-child(1) {
+    margin: 0 auto;
+}
+
+header .start__project li:nth-child(1) img {
+    margin-top: -6px;
+}
+
+header .header__top .aebele__big-size {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 120px auto 0 auto;
+    text-align: center;
+}
+
+header .header__top .svg{
+    z-index: 22;
+}
+
+header .header__top .svg p {
+    font-size: 22vw;
+    font-weight: 600;
+    color:#c19a5b;
+    font-family: 'Big Shoulders Stencil Text', cursive;
+}
+
+header .header__top .registration__date {
+    font-size: 1.111vw;
+    color: #c19a5b;
+    margin-left: 80px;
+    margin-top: 50px;
+    font-weight: 300;
+    font-style: normal;
+}
+
+header .header__top .header__top-hero {
+    display: flex;
+    /* justify-content: space-between; */
+}
+
+header .header__top .header__top-hero .hero-image {
+    transform: translate3d(0px, 0px, 0px);
+    will-change: transform;
+}
+
+header .header__top .header__top-hero .hero-image:nth-child(1) {
+    position: absolute;
+    top: 10vw;
+    left: 8vw;
+    z-index: 1;
+}
+
+header .header__top .header__top-hero .hero-image:nth-child(2) {
+    position: absolute;
+    top: -15vw;
+    left: 30vw;
+    z-index: 1;
+}
+
+header .header__top .header__top-hero .hero-image:nth-child(3) {
+    position: absolute;
+    top: 20vw;
+    left: 30vw;
+    z-index: 3;
+}
+
+header .header__top .header__top-hero .hero-image:nth-child(4) {
+    position: absolute;
+    top: 30vw;
+    right: 10.7vw;
+    z-index: 1;
+}
+
+header .header__top .header__top-hero .hero-image:nth-child(1) img {
+    width: 300px;
+    height: auto!important;
+}
+
+header .header__top .header__top-hero .hero-image:nth-child(2) img {
+    width: 400px;
+    height: auto!important;
+}
+
+header .header__top .header__top-hero .hero-image:nth-child(3) img {
+    width: 400px;
+    height: auto!important;
+}
+
+header .header__top .header__top-hero .hero-image:nth-child(4) img {
+    width: 400px;
+    height: auto!important;
+}
+
+.index__navbar {
+    position: fixed;
+    bottom: 50px;
+    right: 75px;
+    display: flex;
+    flex-direction: column;
+    z-index: 22;
+    font-family: candara;
+}
+
+.index__navbar a {
+    color: black;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+}
+
+.index__navbar a:hover,
+.index__navbar a.active {
+    color: #c19a5b;
+    text-decoration: none;
+}
+
+.index__navbar span {
+    position: relative;
+}
+
+.index__navbar span i.fa {
+    font-size: 22px;
+    color: #c19a5b;
+    position: absolute;
+    right: 10px;
+    top: -1px;
+}
+
+/**header stop */
+/** section start*/
+section {
+    max-width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+section .full-hd__hotel-images__1, section .full-hd__hotel-images__2, section .full-hd__hotel-images__3 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 30px;
+    flex-wrap: wrap;
+}
+section .full-hd__hotel-images__1 div:nth-child(2) img, section .full-hd__hotel-images__2 div:nth-child(2) img, section .full-hd__hotel-images__3 div:nth-child(2) img   {
+    margin-top: 30px;
+}
+section .full-hd__hotel-images__2, section .full-hd__hotel-images__3 {
+    margin-top: 30px;
+}
+section .full-hd__hotel-images__1 div img, section .full-hd__hotel-images__2 div img, section .full-hd__hotel-images__3 img {
+    width: 500px;
+    height: 400px;
+}
+
+section .section__start p:nth-child(1) {
+    font-size: 14px;
+    color: black;
+    margin: 250px auto 50px auto;
+    text-align: center;
+    font-weight: 600;
+    font-family: 'Big Shoulders Stencil Text', cursive;
+}
+
+section .section__start p:nth-child(2) {
+    font-size: 7vw;
+    color: black;
+    opacity: 1;
+    margin: 0px auto;
+    text-align: center;
+    font-weight: 600;
+    font-family: 'Big Shoulders Stencil Text', cursive;
+    max-width: 550px;
+    line-height: 7vw;
+}
+
+section .section__start p:nth-child(3) {
+    font-size:16vw;
+    color: #c19a5b;
+    font-family: 'Meie Script', cursive;
+    margin: 0px auto 10px auto;
+    text-align: center;
+    font-weight: 400;
+}
+
+section .section__start p:nth-child(4) {
+    font-size: 22px;
+    color: rgb(59, 56, 56);
+    line-height: 34px;
+    margin: 0px auto 100px auto;
+    text-align: center;
+    font-weight: 500;
+    max-width: 500px;
+}
+
+section .navbar__section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px auto 200px auto;
+}
+
+section .navbar__section li a {
+    display: block;
+    margin: 0 32px;
+    color: #c19a5b;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: 600;
+    transform: .2s ease-in-out;
+}
+
+section .navbar__section li a:hover {
+    transform: rotate(360deg);
+    transform: .2s ease-in-out;
+    text-decoration: none;
+}
+
+section .navbar__section li a:hover i.fa {
+    display: none;
+}
+
+section .navbar__section li a span {
+    position: relative;
+}
+
+section .navbar__section li a span i.fa {
+    position: absolute;
+    top: 0px;
+    left: -20px;
+}
+
+section .get_in_touch-images {
+    margin: 0 auto 200px auto;
+    display: flex;
+    position: relative;
+}
+
+section .get_in_touch-images div {
+    margin: 0 auto;
+}
+
+section .get_in_touch-images div:nth-child(1) img {
+    width: 500px;
+    height: auto;
+    z-index: 1;
+}
+section .get_in_touch-images div:nth-child(1) img:hover {
+    z-index: 22!important;
+    opacity: 1;
+} 
+
+section .get_in_touch-images div:nth-child(2) img {
+    width: 500px;
+    height: auto;
+    position: absolute;
+    right: 30px;
+    top: 300px;
+    /* z-index: 3; */
+}
+
+/** */
+section .get_in_touch {
+    display: flex;
+    flex-direction: column;
+}
+
+section .get_in_touch p:nth-child(1) {
+    margin-left: 12rem;
+    color: black;
+    margin-top: 250px!important;
+}
+
+section .get_in_touch p:nth-child(2) {
+    color: black;
+    opacity: 1;
+    font-size: 100px;
+    font-weight: 600;
+    margin-top: -10px;
+    margin-left: 12rem;
+}
+
+section .get_in_touch p:nth-child(3) {
+    color: black;
+    font-size: 100px;
+    opacity: 1;
+    line-height: 60px;
+    font-weight: 600;
+    margin-left: 18rem;
+    margin-top: -20px;
+}
+
+section .get_in_touch p:nth-child(4) {
+    font-size: 100px;
+    color: black;
+    opacity: 1;
+    font-weight: 600;
+    margin-left: 24rem;
+    margin-top: -22px;
+}
+
+section .get_in_touch p:nth-child(5) {
+    font-size: 100px;
+    color: #c19a5b;
+    opacity: 1;
+    line-height: 22px;
+    font-family: 'Meie Script', cursive;
+    font-weight: 300;
+    margin-left: 28rem;
+}
+
+section .navbar__section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px auto 60px auto;
+}
+
+section .navbar__section .socialNetwork {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+section .navbar__section .media {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: rebeccapurple;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section .navbar__section .media:hover {
+    background-color: purple;
+} 
+section .navbar__section .media:hover a .fa {
+    color: red;
+}
+section .navbar__section .media a {
+    font-size: 14px;
+    cursor: pointer;
+    color: white;
+}
+section .navbar__section .media a i.fa {
+    font-size: 22px;
+    color: rgb(145, 121, 168);
+}
+
+
+
+
+section .inspired__texts {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 100px auto;
+}
+
+section .inspired__texts p {
+    text-align: justify;
+    opacity: 1;
+    font-weight: 500;
+}
+
+footer {
+    max-width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+footer .studio__links {
+    margin: 0 auto 0px auto;
+}
+
+footer .studio__links p:nth-child(1) {
+    font-size: 14px;
+    color: black;
+    text-align: center;
+    font-family: 'Big Shoulders Stencil Text', cursive;
+}
+
+footer .studio__links p:nth-child(2) {
+    text-align: center;
+    font-size: 100px;
+    text-transform: uppercase;
+    
+}
+
+footer .studio__links p:nth-child(2) a {
+    color: #c19a5b;
+    border-bottom: 1px solid #c19a5b;
+    transition: .5s ease;
+}
+
+footer .studio__links p:nth-child(2) a:hover {
+    text-decoration: none;
+    color: black;
+    border-bottom: none;
+}
+
+/* 
+ footer .studio__links p:nth-child(2)::after {
+    content: '';
+    display: block;
+    width: 380px;
+    height: 2px;
+    background-color: #c19a5b;
+    margin: 22px auto 0 auto;
+}
+
+
+footer .studio__links p:nth-child(2):hover::after {
+    display: block;
+    content: 'Atelier';
+    font-size: 80px;
+    color: #c19a5b;
+    text-align: center;
+    font-family: 'Meie Script', cursive;
+    letter-spacing: 0px;
+    background-color: transparent;
+} */
+
+footer .footer__part li {
+    text-align: center;
+    color: #c19a5b;
+    line-height: 22px;
+}
+
+footer .footer__part li:nth-child(1) {
+    margin-top: 120px;
+}
+
+footer .footer__navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -35px;
+    padding-bottom: 120px;
+}
+footer .footer__navbar li {
+    margin-left: 7px;
+    margin-top: 18px;
+}
+footer .studio__links .footer__part img {
+    margin-top: -4px;
+}
+
+footer .footer__navbar li a {
+    color: #c19a5b;
+    transition: .5s ease;
+}
+
+footer .footer__navbar li a:hover {
+    transition: .5s ease;
+}

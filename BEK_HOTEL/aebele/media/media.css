@@ -1,0 +1,190 @@
+@media (max-width: 1000px) {
+    footer .studio__navbar {
+        position: fixed;
+        bottom: 15px;
+        right: 15px;
+        z-index: 22;
+        font-family: candara;
+    }
+    footer .studio__navbar a {
+        color: black;
+        text-transform: uppercase;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 22px;
+    }
+    header .header__part-top .header__top-texts {
+        font-size: 80px;
+        line-height: 70px;
+    }
+    footer .footer__part, footer .footer__navbar {
+        margin: auto;
+    }
+    footer .footer__part {
+        max-width: 500px;
+    }
+    footer .footer__navbar {
+        max-width: 600px;
+    }  
+    footer .footer__part li {
+        line-height: 22px;
+        font-size: 14px;
+    }
+    footer .footer__navbar li {
+        line-height: 22px;
+        font-size: 19px;
+    }
+    footer .footer__navbar li a {
+        border-bottom: 1px dotted #c1951b;
+    }
+}
+@media (max-width: 900px) {
+    header .header__part-top .header__top-texts {
+        font-size: 50px;
+        line-height: 50px;
+    }
+    header .header__part-top .aebele {
+        font-size: 18px;
+    }
+    header .header__part-bottom {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    header .header__part-top {
+        margin-bottom: 140px;
+    }
+    header .header__part-top .full__texts-header {
+        max-width: 600px;
+    }
+    header .header__part-bottom .text-OurWorks {
+        margin: 0 50px;
+    }
+    header .header__part-bottom .text-OurWorks p {
+        font-size: 22px;
+        line-height: 30px;
+    }
+    header .header__part-bottom .designer-image {
+        width: 600px;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 80px;
+    }
+    section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }
+    section div:nth-child(1) img, section div:nth-child(2) img, section div:nth-child(3) img {
+        width: 600px;
+        height: auto;
+        display: block;
+        margin-top: 22px;
+    }
+    section div:nth-child(3) {
+        margin-bottom: 150px;
+    }
+    footer .aebele__links p:nth-child(2) a {
+        font-size: 80px;
+    }
+    footer .aebele__links p:nth-child(2)::after {
+        content: '';
+        display: block;
+        width: 250px;
+        height: 2px;
+    }
+    footer .footer__part li:nth-child(1) {
+        margin-top: 80px;
+    }
+    footer .footer__part li:nth-child(2) {
+        margin-bottom: 80px;
+    } 
+    footer .footer__navbar {
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 78px;
+    }
+    footer .footer__navbar li {
+        line-height: 40px;
+    }
+}
+@media (max-width: 700px) {
+    header .logo img {
+        position: fixed;
+        width: 44px;
+        height: 38px;
+        top: 40px;
+        left: 40px;
+        z-index: 111;
+    }
+    .studio__navbar {
+        position: fixed;
+        bottom: 10px;
+        right: 15px;
+        display: flex;
+        flex-direction: column;
+        z-index: 22;
+        font-family: candara;
+    }
+    
+    .studio__navbar a {
+        color: #292727;
+        text-transform: uppercase;
+        font-size: 16px;
+        line-height: 22px;
+        font-weight: 600;
+    }
+    .studio__navbar span i.fa {
+        font-size: 19px;
+        color: #c19a5b;
+        position: absolute;
+        right: 5px;
+        top: 23px;
+    }
+    header .header__part-top .full__texts-header {
+        max-width: 300px;
+        text-align: justify;
+    }
+}
+@media (max-width: 650px) {
+    header .header__part-top .whatWeDo .line__weDo {
+        width: 80px;
+        height: 1px;
+        background-color: #c19a5b;
+        position: absolute;
+        left: 25%;
+        right: 75%;
+        margin: auto;
+    }
+    header .header__part-top .whatWeDo .ourWork {
+        font-size: 13px;
+        text-align: center;
+        margin-left: 50px;
+    }
+    section .first_image, section .second-image, section .third-image {
+        display: block;
+        margin: 0 50px 0 0;
+        max-width: 400px;
+        height: auto;
+    } 
+
+}
+@media (max-width: 450px) {
+    header .header__part-top .aebele {
+        margin-bottom: 20px;
+    }
+    header .header__part-top .header__top-texts {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    header .header__part-top .about {
+        font-size: 40px;
+        margin-top: 5px;
+        margin-left: -15px;
+    }
+}
